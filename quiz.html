@@ -81,6 +81,7 @@ options:["FTP ","HTTP","SMTP","HTTPS"],answer: "HTTPS"}
 options:["21","25","80","443"],answer: "80"}];
 
 function loadQuiz() {
+let x=2;
  const quiz = document.getElementById("quiz-box");
  quiz.innerHTML = "";
  quizData.forEach((q, index) => { const div = document.createElement("div");
